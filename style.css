@@ -10,10 +10,29 @@
   margin: 0;
 }
 
+body {
+  min-height: 100vh;
+}
+
+header {
+  height: 20vh !important;
+}
+
+.home-main {
+  min-height: 80vh !important;
+  padding-top: 3rem;
+}
+
+.photo-main {
+  height: 80vh !important;
+  padding: 0 !important;
+}
+
 /* Header CSS */
 .header-container {
+  height: 100%;
+  padding: 0 1rem 0 1rem;
   overflow: hidden;
-  padding: 2rem 3rem;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -26,7 +45,6 @@
   align-items: center;
   user-select: none;
 }
-
 
 .header-left img {
   height: 80px;
@@ -48,13 +66,38 @@
 }
 
 .header-right button:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
+}
+
+.header-right button:active{
+  transform: scale(0.98);
+}
+
+.camera-bag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+}
+
+.camera-bag img{
+  height: 5rem;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.camera-bag img:hover{
+  transform: scale(1.05);
+}
+
+.camera-bag img:active{
+  transform: scale(0.95);
 }
 
 /* Home page CSS */
 
 main {
-  padding: 2rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -69,7 +112,7 @@ main {
   height: 400px;
   background-color: white;
   margin: 0 40px 60px 20px;
-  box-shadow: 11px 18px 30px -12px rgba(0,0,0,0.52);
+  box-shadow: 18px 18px 20px -12px black;
 }
 
 .card img {
@@ -141,21 +184,22 @@ main {
 }
 
 .image-container {
-  width: 50%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
-  width: 100%;
-  box-shadow: 11px 18px 30px -12px rgba(0,0,0,0.52);
+  height: 75%;
+  box-shadow: 18px 18px 15px -12px black;
   border-radius: 1rem;
 }
 
 .photo-details {
   color: white;
   text-shadow: 1px 1px 10px black;
-  backdrop-filter: invert(100%);
+  backdrop-filter: invert(100%) brightness(50%);
   padding: 1rem;
   border-radius: 1rem;
   display: flex;

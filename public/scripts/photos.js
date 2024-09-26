@@ -1,12 +1,30 @@
+let lastVisitedPhoto = 1;
 const renderPhotos = async () => {
   const response = await fetch('/photos');
   const data = await response.json();
 
   const mainContent = document.getElementById('main-content');
+  mainContent.classList.add("home-main");
+
+  const storedLastVisitedPhoto = localStorage.getItem('lastVisitedPhoto');
+  if (storedLastVisitedPhoto) {
+    lastVisitedPhoto = parseInt(storedLastVisitedPhoto);
+  }
 
   if (data) {
+    mainContent.style.backgroundImage = `url(${data[lastVisitedPhoto - 1].url})`
+    mainContent.style.backgroundSize = "cover";
+    mainContent.style.backgroundRepeat = "no-repeat";
+    mainContent.style.backgroundBlendMode = "difference";
+
+    const selectedCamera = localStorage.getItem('camera');
+
     data
         .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .filter((photo) => {
+          if(selectedCamera === 'All') return true;
+          return photo.camera === selectedCamera;
+        })
         .map(photo => {
           const card = document.createElement('div');
           card.classList.add("card");
@@ -55,6 +73,7 @@ const renderPhoto = async () => {
   const data = await response.json();
 
   const photoContent = document.getElementById('photo-content');
+  photoContent.classList.add('photo-main');
 
   let photo;
 
@@ -63,6 +82,9 @@ const renderPhoto = async () => {
   }
 
   if(photo) {
+    lastVisitedPhoto = photo.id;
+    localStorage.setItem('lastVisitedPhoto', lastVisitedPhoto);
+
     document.getElementById('image').src = photo.url;
     document.getElementById('title').textContent = photo.title;
     document.getElementById('date').textContent = 'Taken On: ' + photo.date;
