@@ -1,0 +1,17 @@
+{
+  "name": "unit1lab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node --watch ./server/server.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.1"
+  }
+}
