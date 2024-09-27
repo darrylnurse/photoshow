@@ -10,7 +10,7 @@ const headerLogo = document.createElement('img');
 headerLogo.src = '/photo-logo.png';
 
 const headerTitle = document.createElement('h1');
-headerTitle.textContent = 'OMENCLATE';
+headerTitle.textContent = 'PHOTOS';
 
 headerLeft.appendChild(headerLogo);
 headerLeft.appendChild(headerTitle);

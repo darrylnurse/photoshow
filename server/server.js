@@ -1,4 +1,5 @@
 import express from "express";
+import './config/dotenv.js';
 import photoRouter from "./routes/photos.js";
 
 const app = express();

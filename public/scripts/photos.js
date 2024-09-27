@@ -90,9 +90,9 @@ const renderPhoto = async () => {
     document.getElementById('date').textContent = 'Taken On: ' + photo.date;
     document.getElementById('location').textContent = 'Taken At: ' + photo.location;
     document.getElementById('camera').textContent = 'Taken With: ' + photo.camera;
-    document.getElementById('focal-length').textContent = 'Focal Length: ' + photo['focal-length'];
+    document.getElementById('focal-length').textContent = 'Focal Length: ' + photo['focal_length'];
     document.getElementById('aperture').textContent = 'Aperture: ' + photo.aperture;
-    document.getElementById('shutter-speed').textContent = 'Shutter Speed: ' + photo.shutterspeed;
+    document.getElementById('shutter-speed').textContent = 'Shutter Speed: ' + photo['shutter_speed'];
     document.getElementById('iso').textContent = 'ISO: ' + photo.iso;
     document.title = `${photo.title}`;
     photoContent.style.backgroundImage = `url(${photo.url})`

@@ -6,9 +6,9 @@ const photoData = [
     "date": "August 19, 2024",
     "location": "Far Rockaway, NYC",
     "camera": "Panasonic DMC-ZS35",
-    "focal-length": "",
+    "focal_length": "4.3mm",
     "aperture": "f/4.0",
-    "shutterspeed": "1/400 sec",
+    "shutter_speed": "1/400 sec",
     "iso": "100"
   },
   {
@@ -18,9 +18,9 @@ const photoData = [
     "date": "July 12, 2024",
     "location": "Half Moon Bay, CA",
     "camera": "Panasonic DMC-GX85",
-    "focal-length": "114mm",
+    "focal_length": "114mm",
     "aperture": "f/6.3",
-    "shutterspeed": "1/500 sec",
+    "shutter_speed": "1/500 sec",
     "iso": "400"
   },
   {
@@ -30,9 +30,9 @@ const photoData = [
     "date": "July 17, 2024",
     "location": "Santa Clara, CA",
     "camera": "Panasonic DMC-GX85",
-    "focal-length": "35mm",
+    "focal_length": "35mm",
     "aperture": "f/2.8",
-    "shutterspeed": "1/200 sec",
+    "shutter_speed": "1/200 sec",
     "iso": "100"
   },
   {
@@ -42,9 +42,9 @@ const photoData = [
     "date": "April 23, 2024",
     "location": "Rosedale, NYC",
     "camera": "Panasonic DMC-ZS35",
-    "focal-length": "56mm",
+    "focal_length": "56mm",
     "aperture": "f/5.9",
-    "shutterspeed": "1/50 sec",
+    "shutter_speed": "1/50 sec",
     "iso": "400"
   },
   {
@@ -54,9 +54,9 @@ const photoData = [
     "date": "April 23, 2024",
     "location": "Rosedale, NYC",
     "camera": "Panasonic DMC-ZS35",
-    "focal-length": "11mm",
+    "focal_length": "11mm",
     "aperture": "f/5.6",
-    "shutterspeed": "1/400 sec",
+    "shutter_speed": "1/400 sec",
     "iso": "400"
   },
   {
@@ -66,9 +66,9 @@ const photoData = [
     "date": "August 23, 2024",
     "location": "College Point, NYC",
     "camera": "Apple iPhone 14 Pro",
-    "focal-length": "6.9mm",
+    "focal_length": "6.9mm",
     "aperture": "f/1.8",
-    "shutterspeed": "1/3500 sec",
+    "shutter_speed": "1/3500 sec",
     "iso": "80"
   },
   {
@@ -78,9 +78,9 @@ const photoData = [
     "date": "February 18, 2024",
     "location": "Chelsea Piers, NYC",
     "camera": "Apple iPhone 14 Pro",
-    "focal-length": "6.9mm",
+    "focal_length": "6.9mm",
     "aperture": "f/1.8",
-    "shutterspeed": "1/60 sec",
+    "shutter_speed": "1/60 sec",
     "iso": "250"
   },
   {
@@ -90,9 +90,9 @@ const photoData = [
     "date": "February 16, 2024",
     "location": "Central Park, NYC",
     "camera": "Panasonic DMC-ZS35",
-    "focal-length": "4.3mm",
+    "focal_length": "4.3mm",
     "aperture": "f/3.3",
-    "shutterspeed": "1/8 sec",
+    "shutter_speed": "1/8 sec",
     "iso": "400"
   },
   {
@@ -102,9 +102,9 @@ const photoData = [
     "date": "February 18, 2024",
     "location": "Chelsea Piers, NYC",
     "camera": "Samsung NV4",
-    "focal-length": "6.6mm",
+    "focal_length": "6.6mm",
     "aperture": "f/3.5",
-    "shutterspeed": "1/90 sec",
+    "shutter_speed": "1/90 sec",
     "iso": "100"
   },
   {
@@ -114,9 +114,9 @@ const photoData = [
     "date": "February 18, 2024",
     "location": "Chelsea Piers, NYC",
     "camera": "Samsung NV4",
-    "focal-length": "6.6mm",
+    "focal_length": "6.6mm",
     "aperture": "f/3.5",
-    "shutterspeed": "1/250 sec",
+    "shutter_speed": "1/250 sec",
     "iso": "80"
   },
   {
@@ -126,9 +126,9 @@ const photoData = [
     "date": "February 18, 2024",
     "location": "Times Square, NYC",
     "camera": "Samsung NV4",
-    "focal-length": "6.6mm",
+    "focal_length": "6.6mm",
     "aperture": "f/3.5",
-    "shutterspeed": "1/90 sec",
+    "shutter_speed": "1/90 sec",
     "iso": "100"
   },
   {
@@ -138,9 +138,9 @@ const photoData = [
     "date": "March 9, 2024",
     "location": "Jamaica, NYC",
     "camera": "Samsung NV4",
-    "focal-length": "6.6mm",
+    "focal_length": "6.6mm",
     "aperture": "f/3.5",
-    "shutterspeed": "1/45 sec",
+    "shutter_speed": "1/45 sec",
     "iso": "320"
   },
   {
@@ -150,9 +150,9 @@ const photoData = [
     "date": "March 9, 2024",
     "location": "Jamaica, NYC",
     "camera": "Samsung NV4",
-    "focal-length": "6.6mm",
+    "focal_length": "6.6mm",
     "aperture": "f/3.5",
-    "shutterspeed": "1/45 sec",
+    "shutter_speed": "1/45 sec",
     "iso": "400"
   },
   {
@@ -162,9 +162,9 @@ const photoData = [
     "date": "January 26, 2024",
     "location": "College Point, NYC",
     "camera": "Apple iPhone 14 Pro",
-    "focal-length": "6.9mm",
+    "focal_length": "6.9mm",
     "aperture": "f/1.8",
-    "shutterspeed": "1/25 sec",
+    "shutter_speed": "1/25 sec",
     "iso": "800"
   },
   {
@@ -174,9 +174,9 @@ const photoData = [
     "date": "January 22, 2024",
     "location": "Three Houses, Barbados",
     "camera": "Panasonic DMC-GX85",
-    "focal-length": "150mm",
+    "focal_length": "150mm",
     "aperture": "f/4.5",
-    "shutterspeed": "1/2500 sec",
+    "shutter_speed": "1/2500 sec",
     "iso": "3200"
   },
   {
@@ -186,9 +186,9 @@ const photoData = [
     "date": "February 9, 2024",
     "location": "Forest Park, NYC",
     "camera": "Panasonic DMC-ZS35",
-    "focal-length": "4.3mm",
+    "focal_length": "4.3mm",
     "aperture": "f/3.3",
-    "shutterspeed": "1/5 sec",
+    "shutter_speed": "1/5 sec",
     "iso": "200"
   },
   {
@@ -198,9 +198,9 @@ const photoData = [
     "date": "January 22, 2024",
     "location": "Three Houses, Barbados",
     "camera": "Panasonic DMC-GX85",
-    "focal-length": "35mm",
+    "focal_length": "35mm",
     "aperture": "f/5.6",
-    "shutterspeed": "1/160 sec",
+    "shutter_speed": "1/160 sec",
     "iso": "100"
   },
   {
@@ -210,9 +210,9 @@ const photoData = [
     "date": "April 29, 2024",
     "location": "Koreatown, NYC",
     "camera": "Apple iPhone 14 Pro",
-    "focal-length": "6.9mm",
+    "focal_length": "6.9mm",
     "aperture": "f/1.8",
-    "shutterspeed": "1/30 sec",
+    "shutter_speed": "1/30 sec",
     "iso": "640"
   },
   {
@@ -222,10 +222,22 @@ const photoData = [
     "date": "January 30, 2024",
     "location": "Jamaica, NYC",
     "camera": "Panasonic DMC-ZS35",
-    "focal-length": "5.4mm",
+    "focal_length": "5.4mm",
     "aperture": "f/3.6",
-    "shutterspeed": "1/15 sec",
+    "shutter_speed": "1/15 sec",
     "iso": "200"
+  },
+  {
+    "id": 20,
+    "url": "https://i.ibb.co/GQ18sPF/20240216-IMG-0780.jpg",
+    "title": "Neon Night Shift",
+    "date": "February 16, 2024",
+    "location": "Midtown Manhattan, NYC",
+    "camera": "Panasonic DMC-ZS35",
+    "focal_length": "4.3mm",
+    "aperture": "f/3.3",
+    "shutter_speed": "1/30 sec",
+    "iso": "400"
   },
 ]
 
