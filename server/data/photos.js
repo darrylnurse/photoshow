@@ -239,6 +239,42 @@ const photoData = [
     "shutter_speed": "1/30 sec",
     "iso": "400"
   },
+  {
+    "id": 21,
+    "url": "https://i.ibb.co/JB5Tmn4/20240927-IMG-0505.jpg",
+    "title": "Throne of Earth",
+    "date": "September 27, 2024",
+    "location": "Chinatown, NYC",
+    "camera": "Panasonic DMC-ZS35",
+    "focal_length": "6.1mm",
+    "aperture": "f/3.7",
+    "shutter_speed": "1/100 sec",
+    "iso": "100"
+  },
+  {
+    "id": 22,
+    "url": "https://i.ibb.co/sjkp7L4/20240713-IMG-7720.jpg",
+    "title": "Red Deluge",
+    "date": "July 13, 2024",
+    "location": "Santa Clara, CA",
+    "camera": "Panasonic DMC-GX85",
+    "focal_length": "188mm",
+    "aperture": "f/4.8",
+    "shutter_speed": "1/160 sec",
+    "iso": "5000"
+  },
+  {
+    "id": 23,
+    "url": "https://i.ibb.co/fH6S2tG/20240122-IMG-9117.jpg",
+    "title": "Cerulean Sea",
+    "date": "January 22, 2024",
+    "location": "Bath, Barbados",
+    "camera": "Panasonic DMC-ZS35",
+    "focal_length": "4.3mm",
+    "aperture": "f/4.0",
+    "shutter_speed": "1/4640 sec",
+    "iso": "200"
+  },
 ]
 
 export default photoData

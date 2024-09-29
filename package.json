@@ -8,13 +8,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "node --watch ./server/server.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run start\""
+    "app": "concurrently \"npm run start\" \"npm run dev\""
   },
   "devDependencies": {
     "concurrently": "^9.0.1",
     "vite": "^5.4.1"
   },
   "dependencies": {
-    "@picocss/pico": "^2.0.6"
+    "@picocss/pico": "^2.0.6",
+    "cors": "^2.8.5"
   }
 }

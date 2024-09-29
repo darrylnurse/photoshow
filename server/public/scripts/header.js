@@ -44,20 +44,15 @@ headerCenter.className = 'header-center';
 
 const cameraBag = document.createElement('div');
 cameraBag.className = 'camera-bag';
-const shadowStyle = "drop-shadow(3px 6px 6px black)";
 
 const gx85 = document.createElement('img');
 gx85.src = '/gx85.png';
-gx85.style.filter = localStorage.getItem('camera') === 'Panasonic DMC-GX85' ? shadowStyle : 'none';
 const zs35 = document.createElement('img');
 zs35.src = '/zs35.png';
-zs35.style.filter = localStorage.getItem('camera') === 'Panasonic DMC-ZS35' ? shadowStyle : 'none';
 const nv4 = document.createElement('img');
 nv4.src = '/nv4.png';
-nv4.style.filter = localStorage.getItem('camera') === 'Samsung NV4' ? shadowStyle : 'none';
 const i14pro = document.createElement('img');
 i14pro.src = '/14pro.png';
-i14pro.style.filter = localStorage.getItem('camera') === 'Apple iPhone 14 Pro' ? shadowStyle : 'none';
 
 gx85.addEventListener('click', () => {
   localStorage.setItem('camera', 'Panasonic DMC-GX85');
