@@ -1,24 +1,23 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  root: './public',
   build: {
-    outDir: './server/public',
+    outDir: '../server/public',
     emptyOutDir: true
   },
   server: {
     proxy: {
       '/photos': {
-        target: 'http://localhost:3001',
+        target: 'http://localhost:3001/',
         changeOrigin: true,
-        secure: false,
-        ws: false
+        secure: false
       },
       '/about': {
-        target: 'http://localhost:3001',
+        target: 'http://localhost:3001/',
         changeOrigin: true,
-        secure: false,
-        ws: false
+        secure: false
       }
     }
-  }
+  },
 })
