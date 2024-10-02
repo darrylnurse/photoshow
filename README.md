@@ -1,10 +1,10 @@
-# WEB103 Project 1 - Photo Show
+# WEB103 Project 1 & 2 - Photo Show
 
 Submitted by: Darryl Nurse
 
 About this web app: Photo show shows photos I have taken.
 
-Time spent: 7 hours
+Time spent: 15 hours
 
 ## Required Features
 
@@ -17,7 +17,11 @@ The following **required** functionality is completed:
 - [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
   - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
 - [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is appropriately styled using Picocss**
+- [x] **The web app is appropriately styled using Picocss**
+- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
@@ -25,7 +29,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] List anything else that you added to improve the site's functionality!
+- [x] I added a filter for the cameras
 
 ## Video Walkthrough
 
@@ -34,6 +38,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 ![](https://github.com/darrylnurse/photoshow/blob/main/photo-show.gif)
+![](https://github.com/darrylnurse/photoshow/blob/main/photo-show-2-gif.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCAP
