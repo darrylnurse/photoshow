@@ -1,3 +1,9 @@
+import logoImg from '../assets/photo-logo.png';
+import gx85Img from '../assets/gx85.png';
+import zs35Img from '../assets/zs35.png';
+import nv4Img from '../assets/nv4.png';
+import i14proImg from '../assets/14pro.png';
+
 const header = document.querySelector('header');
 
 const headerContainer = document.createElement('div');
@@ -7,7 +13,7 @@ const headerLeft = document.createElement('div');
 headerLeft.className = 'header-left';
 
 const headerLogo = document.createElement('img');
-headerLogo.src = '/assets/photo-logo.png';
+headerLogo.src = logoImg;
 
 const headerTitleContainer = document.createElement('div');
 headerTitleContainer.className = 'title-container';
@@ -47,16 +53,16 @@ cameraBag.className = 'camera-bag';
 const shadowStyle = "drop-shadow(3px 6px 6px black)";
 
 const gx85 = document.createElement('img');
-gx85.src = '/assets/gx85.png';
+gx85.src = gx85Img;
 gx85.style.filter = localStorage.getItem('camera') === 'Panasonic DMC-GX85' ? shadowStyle : 'none';
 const zs35 = document.createElement('img');
-zs35.src = '/assets/zs35.png';
+zs35.src = zs35Img;
 zs35.style.filter = localStorage.getItem('camera') === 'Panasonic DMC-ZS35' ? shadowStyle : 'none';
 const nv4 = document.createElement('img');
-nv4.src = '/assets/nv4.png';
+nv4.src = nv4Img;
 nv4.style.filter = localStorage.getItem('camera') === 'Samsung NV4' ? shadowStyle : 'none';
 const i14pro = document.createElement('img');
-i14pro.src = '/assets/14pro.png';
+i14pro.src = i14proImg;
 i14pro.style.filter = localStorage.getItem('camera') === 'Apple iPhone 14 Pro' ? shadowStyle : 'none';
 
 gx85.addEventListener('click', () => {
